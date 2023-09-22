@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestDependency">
+	<test name="TestCase1">
+		<classes>
+			<class name="Bai3.TestApp">
+			</class>
+			<class name="Bai3.TestDatabase">
+			</class>
+			<class name="Bai3.TestServer">
+			</class>
+		</classes>
+	</test>
+</suite>

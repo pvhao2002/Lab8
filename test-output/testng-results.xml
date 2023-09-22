@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-19T00:22:00 ICT" name="Default suite" finished-at="2023-04-19T00:22:21 ICT" duration-ms="20560">
+    <groups>
+    </groups>
+    <test started-at="2023-04-19T00:22:00 ICT" name="Default test" finished-at="2023-04-19T00:22:21 ICT" duration-ms="20560">
+      <class name="TestExcel.testUpdate">
+        <test-method is-config="true" signature="suiteTest()[pri:0, instance:TestExcel.testUpdate@27f981c6]" started-at="2023-04-19T00:22:00 ICT" name="suiteTest" finished-at="2023-04-19T00:22:04 ICT" duration-ms="3545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTest -->
+        <test-method signature="UpdateTest()[pri:0, instance:TestExcel.testUpdate@27f981c6]" started-at="2023-04-19T00:22:04 ICT" name="UpdateTest" finished-at="2023-04-19T00:22:20 ICT" duration-ms="16358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateTest -->
+        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:TestExcel.testUpdate@27f981c6]" started-at="2023-04-19T00:22:20 ICT" name="suiteTearDown" finished-at="2023-04-19T00:22:21 ICT" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- TestExcel.testUpdate -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,16 @@
+<div xmlns:th="http://www.thymeleaf.org">
+    <div class="panel panel-primary">
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Danh mục</h5>
+                    <small th:text="${cates.size()}"> Danh mục</small>
+                </div>
+            </a>
+
+            <a th:each="c:${cates}" th:href="@{|/product/list?cid=${c.id}|}" 
+            class="list-group-item">[[${c.name}]]</a>
+        </div>
+    </div>
+
+</div>

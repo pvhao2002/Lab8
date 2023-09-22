@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite2" parallel="false">
+	<test name="suite2-test1">
+		<classes>
+			<class name="bai1.TestClass4"/>
+		</classes>
+	</test>
+</suite>

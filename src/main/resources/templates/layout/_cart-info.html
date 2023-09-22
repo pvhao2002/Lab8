@@ -1,0 +1,6 @@
+<div xmlns:th="http://www.thymeleaf.org">
+    <a th:href="@{/cart/view}" class="btn btn-primary position-relative mb-2">
+        Order
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">{{cart.count}}</span>
+    </a>
+</div>

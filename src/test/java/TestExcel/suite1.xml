@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite1" parallel="false">
+	<test name="suite1-test1">
+		<classes>
+			<class name="TestExcel.TestLogin"/>
+			
+		</classes>
+	</test>
+	<test name="suite1-test2">
+		<classes>
+			<class name="TestExcel.testinsert"/>
+		</classes>
+	</test>
+	
+</suite>

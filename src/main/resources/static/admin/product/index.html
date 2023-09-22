@@ -1,0 +1,16 @@
+<ul class="nav nav-tabs" style="font-variant: small-caps;">
+    <li><a data-toggle="tab" href="" data-target="#edit">Product Editon </a></li>
+    <li class="active"><a data-toggle="tab" data-target="#list" href="">List</a></li>
+
+</ul>
+
+<div class="tab-content">
+    <h1>hahahha</h1>
+    <div id="edit" class="tab-pane fade">
+        <div ng-include="'/admin/product/_form.html'"></div>
+    </div>
+    <div id="list" class="tab-pane fade in active">
+        <div ng-include="'/admin/product/_table.html'"></div>
+    </div>
+
+</div>

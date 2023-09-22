@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SaveTestNGResultToExcel]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SaveTestNGResultToExcel(failed)">
+    <classes>
+      <class name="poly.SaveTestNGResultToExcel">
+        <methods>
+          <include name="suiteSetup"/>
+          <include name="DoLogin"/>
+          <include name="suiteTearDown"/>
+        </methods>
+      </class> <!-- poly.SaveTestNGResultToExcel -->
+    </classes>
+  </test> <!-- SaveTestNGResultToExcel(failed) -->
+</suite> <!-- Failed suite [SaveTestNGResultToExcel] -->
